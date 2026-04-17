@@ -7,11 +7,11 @@ export function Footer() {
         <div>
           <p className="footer-title">Spirit Weekend 2026</p>
           <p className="footer-copy">
-            Cedar Ridge Conference Grounds · October 16 to 18
+            Sandisfield, Massachusetts · Sat 09/12 & Sun 09/13, 2026
           </p>
         </div>
         <p className="footer-copy">
-          Built as a clean starting point for the event site.
+          A Sterling Men's Weekeend Event
         </p>
       </Container>
     </footer>

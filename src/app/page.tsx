@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import Image from "next/image";
 import { Button } from "@/components/Button";
 import { Container } from "@/components/Container";
 import { Section } from "@/components/Section";
@@ -17,7 +18,16 @@ export default function HomePage() {
         <Container className="hero-inner">
           <div className="hero-copy">
             <p className="eyebrow">Spirit Weekend 2026</p>
-            <h1>A weekend built for real conversation, good energy, and shared rhythm.</h1>
+            <h1>Spirit Weekend 2026</h1>
+            <div className="hero-image">
+              <Image
+                src="/paul-revere.jpg"
+                alt="Paul Revere galloping on horseback — The Midnight Ride"
+                width={480}
+                height={508}
+                priority
+              />
+            </div>
             <p className="hero-text">
               Spirit Weekend brings students together for three days of sessions,
               music, workshops, and space to actually slow down long enough to

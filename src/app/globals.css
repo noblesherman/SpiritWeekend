@@ -1,15 +1,60 @@
 :root {
-  --background: #f4efe7;
-  --surface: rgba(255, 251, 246, 0.74);
-  --surface-strong: #fbf7f1;
-  --text: #211d19;
-  --muted: #6b625b;
-  --border: rgba(33, 29, 25, 0.14);
-  --accent: #8d4c31;
-  --accent-soft: rgba(141, 76, 49, 0.1);
-  --highlight: #7d6755;
-  --shadow: 0 18px 40px rgba(33, 29, 25, 0.05);
   --max-width: 1120px;
+
+  /* ── Patriot (default) — crisp white · flag navy · Fourth of July red ── */
+  --background: #eef2fb;
+  --body-gradient:
+    radial-gradient(circle at top, rgba(192, 16, 46, 0.08), transparent 26%),
+    linear-gradient(180deg, #ffffff 0%, #eef2fb 45%, #e4ecf8 100%);
+  --header-bg: rgba(255, 255, 255, 0.90);
+  --surface: rgba(255, 255, 255, 0.84);
+  --surface-strong: #ffffff;
+  --text: #0a2d6b;
+  --muted: #3d5c99;
+  --border: rgba(10, 45, 107, 0.15);
+  --accent: #c0102e;
+  --accent-dark: #96091f;
+  --accent-soft: rgba(192, 16, 46, 0.10);
+  --highlight: #0a2d6b;
+  --shadow: 0 18px 40px rgba(10, 45, 107, 0.10);
+}
+
+/* ── Frontier — dark leather · copper · Eastwood grit ── */
+[data-theme="frontier"] {
+  --background: #1c1a17;
+  --body-gradient:
+    radial-gradient(circle at top, rgba(200, 121, 58, 0.14), transparent 26%),
+    linear-gradient(180deg, #201e1a 0%, #1c1a17 45%, #181512 100%);
+  --header-bg: rgba(24, 21, 18, 0.92);
+  --surface: rgba(38, 34, 28, 0.85);
+  --surface-strong: #272420;
+  --text: #f0e8d8;
+  --muted: #9a8c7e;
+  --border: rgba(240, 232, 216, 0.12);
+  --accent: #c8793a;
+  --accent-dark: #a86030;
+  --accent-soft: rgba(200, 121, 58, 0.15);
+  --highlight: #b89654;
+  --shadow: 0 18px 40px rgba(0, 0, 0, 0.30);
+}
+
+/* ── Ember — deep forest · fire orange · masculine spirit ignited ── */
+[data-theme="ember"] {
+  --background: #181e1b;
+  --body-gradient:
+    radial-gradient(circle at top, rgba(224, 94, 26, 0.13), transparent 26%),
+    linear-gradient(180deg, #1c2320 0%, #181e1b 45%, #141a17 100%);
+  --header-bg: rgba(20, 26, 23, 0.92);
+  --surface: rgba(28, 36, 32, 0.85);
+  --surface-strong: #1e2822;
+  --text: #f0ebe0;
+  --muted: #7d9485;
+  --border: rgba(240, 235, 224, 0.11);
+  --accent: #e05e1a;
+  --accent-dark: #b84c14;
+  --accent-soft: rgba(224, 94, 26, 0.14);
+  --highlight: #c4853a;
+  --shadow: 0 18px 40px rgba(0, 0, 0, 0.32);
 }
 
 * {
@@ -23,9 +68,7 @@ html {
 body {
   margin: 0;
   color: var(--text);
-  background:
-    radial-gradient(circle at top, rgba(141, 76, 49, 0.08), transparent 26%),
-    linear-gradient(180deg, #f8f4ee 0%, var(--background) 45%, #f0ebe2 100%);
+  background: var(--body-gradient);
   font-family: var(--font-body), sans-serif;
   line-height: 1.6;
 }
@@ -73,7 +116,7 @@ h3 {
   top: 0;
   z-index: 10;
   backdrop-filter: blur(12px);
-  background: rgba(248, 244, 238, 0.84);
+  background: var(--header-bg);
   border-bottom: 1px solid var(--border);
 }
 
@@ -148,7 +191,10 @@ h3 {
   font-size: clamp(3.2rem, 7vw, 6rem);
   line-height: 0.92;
   margin-bottom: 1.1rem;
-  max-width: 11ch;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  white-space: nowrap;
 }
 
 .hero-text,
@@ -197,6 +243,20 @@ h3 {
   line-height: 1.45;
 }
 
+.hero-image {
+  margin: 1.5rem auto;
+  border-radius: 12px;
+  overflow: hidden;
+  max-width: 420px;
+  box-shadow: var(--shadow);
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
@@ -233,7 +293,7 @@ h3 {
 
 .button--primary:hover,
 .button--primary:focus-visible {
-  background: #75402a;
+  background: var(--accent-dark);
 }
 
 .button--secondary {
@@ -244,6 +304,31 @@ h3 {
 .button--secondary:hover,
 .button--secondary:focus-visible {
   background: var(--accent-soft);
+}
+
+.theme-toggle {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.35rem 0.85rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--muted);
+  cursor: pointer;
+  white-space: nowrap;
+  transition:
+    color 0.15s ease,
+    background-color 0.15s ease,
+    border-color 0.15s ease;
+}
+
+.theme-toggle:hover,
+.theme-toggle:focus-visible {
+  color: var(--accent);
+  border-color: var(--accent);
+  outline: none;
 }
 
 .section {

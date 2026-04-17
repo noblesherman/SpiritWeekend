@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Container } from "@/components/Container";
+import { ThemeToggle } from "@/components/ThemeToggle";
 
 const navLinks = [
   { href: "/", label: "Home" },
@@ -13,8 +14,8 @@ export function Header() {
     <header className="site-header">
       <Container className="header-inner">
         <Link className="site-title" href="/">
-          <span className="site-title-mark">Spirit Weekend</span>
-          <span className="site-title-meta">October 16 to 18, 2026</span>
+          <span className="site-title-mark">Spirit Weekend 2026</span>
+          <span className="site-title-meta">Sat 09/12 & Sun 09/13, 2026</span>
         </Link>
         <nav aria-label="Main navigation">
           <ul className="site-nav">
@@ -25,6 +26,7 @@ export function Header() {
             ))}
           </ul>
         </nav>
+        <ThemeToggle />
       </Container>
     </header>
   );
