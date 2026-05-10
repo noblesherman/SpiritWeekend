@@ -23,7 +23,7 @@ export default function SchedulePage() {
 
   return (
     <Section
-      eyebrow="Event Schedule"
+      eyebrow="Schedule"
       title="A sample rhythm for the weekend."
       intro="The schedule is still hardcoded for now, but the structure is already separated from the page so it stays easy to edit."
     >

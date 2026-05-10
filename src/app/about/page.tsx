@@ -8,49 +8,55 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <Section
-      eyebrow="About the Event"
-      title="A clearer picture of what the weekend is meant to feel like."
+      eyebrow="About"
+      title="What to Expect"
       intro="This page should read less like a brochure and more like an honest invitation. A little context goes a long way."
     >
       <div className="editorial-grid">
         <article className="editorial-lead">
-          <h3>Spirit Weekend is built around presence.</h3>
+          <h3>Purpose</h3>
           <p>
-            The idea is simple: gather students in one place, give the weekend a
-            strong rhythm, and make space for both the planned moments and the
-            unexpected conversations in between.
+            Transform the men who participate and give them a weekend they'll never forget. Give the men a space to let go of the rules and what society tells us what we have to be. Understand the Three Dimensional man.
           </p>
         </article>
         <article className="note">
-          <h3>What people can expect</h3>
+          <h3>Sterling Men's Weekend Graduates ONLY!</h3>
           <p>
-            A mix of large sessions, smaller breakouts, shared meals, and enough
-            time to meet people without the schedule feeling packed every hour.
-          </p>
-        </article>
-        <article className="note">
-          <h3>Who it is for</h3>
-          <p>
-            Students, leaders, volunteers, and anyone helping shape the weekend.
-            You can adjust the wording later once the real audience and tone are
-            locked in.
+            A Sterling Men's Weekend graduate ONLY event.
           </p>
         </article>
       </div>
+
       <div className="rule-list">
+
+        <div className="rule-group-heading"><span>What to Expect</span></div>
         <div>
-          <span className="rule-label">Setting</span>
-          <p>Wooded grounds, shared meals, indoor sessions, outdoor breathing room.</p>
+          <span className="rule-label">XXX</span>
+          <div><h3>Weekend Technology</h3><p>Get your weekend! Bring it home and be the man you always wanted to be.</p></div>
         </div>
         <div>
-          <span className="rule-label">Tone</span>
-          <p>Warm, grounded, and a little more thoughtful than flashy.</p>
+          <span className="rule-label">XXX</span>
+          <div><h3>Food</h3><p>Holy shit YES! Cheffy Shea is ON DUTY!</p></div>
         </div>
         <div>
-          <span className="rule-label">Purpose</span>
-          <p>Create a weekend people remember for how it felt, not just what was on stage.</p>
+          <span className="rule-label">XXX</span>
+          <div><h3>Games</h3><p>Unpredictable Mothah-Fuckery.</p></div>
         </div>
+
+        <div className="rule-group-heading"><span>What to Bring</span></div>
+        <div>
+          <span className="rule-label">XXX</span>
+          <div><h3></h3><p></p></div>
+        </div>
+
+        <div className="rule-group-heading"><span>Logistics</span></div>
+        <div>
+          <span className="rule-label">XXX</span>
+          <div><h3>Duration</h3><p>All day Saturday, half day Sunday.</p></div>
+        </div>
+
       </div>
+
     </Section>
   );
 }

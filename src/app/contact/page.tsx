@@ -10,7 +10,7 @@ export default function ContactPage() {
   return (
     <Section
       eyebrow="Contact"
-      title="A simple contact page with enough detail to feel real."
+      title="QuestionsA simple contact page with enough detail to feel real."
       intro="The form is front-end only for now, but the layout is ready for a real contact flow later."
     >
       <div className="contact-layout">

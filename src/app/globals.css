@@ -431,6 +431,24 @@ h3 {
   font-weight: 700;
 }
 
+.rule-list h3 {
+  text-align: left;
+}
+
+.rule-group-heading {
+  display: block;
+  padding: 1.25rem 0 0.1rem;
+  border-top: 2px solid var(--accent);
+}
+
+.rule-group-heading span {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
 .day-groups {
   display: grid;
   gap: 2.5rem;
