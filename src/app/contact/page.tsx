@@ -10,8 +10,8 @@ export default function ContactPage() {
   return (
     <Section
       eyebrow="Contact"
-      title="QuestionsA simple contact page with enough detail to feel real."
-      intro="The form is front-end only for now, but the layout is ready for a real contact flow later."
+      title="Questions? Get in touch."
+      intro="Reach out about registration, volunteer opportunities, or anything else about the weekend."
     >
       <div className="contact-layout">
         <div className="contact-copy">
@@ -36,7 +36,12 @@ export default function ContactPage() {
           </div>
         </div>
 
-        <form className="contact-form">
+        <form
+          className="contact-form"
+          action="https://formspree.io/f/meenpkol"
+          method="POST"
+        >
+          <input type="hidden" name="_next" value="https://spiritweekend2026.com/contact" />
           <label htmlFor="name">Name</label>
           <input id="name" name="name" placeholder="Your name" type="text" />
 

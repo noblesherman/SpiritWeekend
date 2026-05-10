@@ -243,6 +243,40 @@ h3 {
   line-height: 1.45;
 }
 
+.registration {
+  padding: 3rem 0;
+  border-top: 1px solid var(--border);
+}
+
+.registration-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.registration-copy {
+  text-align: center;
+  max-width: 36rem;
+}
+
+.registration-copy h2 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.05;
+  margin-bottom: 0.5rem;
+}
+
+.registration-copy p {
+  color: var(--muted);
+  margin-bottom: 1.5rem;
+}
+
+.registration-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+  justify-content: center;
+}
+
 .hero-image {
   margin: 1.5rem auto;
   border-radius: 12px;
