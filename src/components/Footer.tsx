@@ -7,7 +7,7 @@ export function Footer() {
         <div>
           <p className="footer-title">Spirit Weekend 2026</p>
           <p className="footer-copy">
-            Sandisfield, Massachusetts · Sat 09/12 & Sun 09/13, 2026
+            Sandisfield, Massachusetts · Sat 08/15 & Sun 08/16, 2026
           </p>
         </div>
         <p className="footer-copy">

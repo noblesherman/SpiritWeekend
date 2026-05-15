@@ -15,7 +15,7 @@ export function Header() {
       <Container className="header-inner">
         <Link className="site-title" href="/">
           <span className="site-title-mark">Spirit Weekend 2026</span>
-          <span className="site-title-meta">Sat 09/12 & Sun 09/13, 2026</span>
+          <span className="site-title-meta">Sat 08/15 & Sun 08/16, 2026</span>
         </Link>
         <nav aria-label="Main navigation">
           <ul className="site-nav">

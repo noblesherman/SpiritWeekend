@@ -441,6 +441,21 @@ h3 {
   border-top: 1px solid var(--border);
 }
 
+.schedule-row.has-image {
+  grid-template-columns: minmax(10rem, 0.7fr) minmax(10rem, 0.9fr) minmax(0, 1.2fr) auto;
+}
+
+.schedule-image {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.schedule-image img {
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+
 .schedule-location {
   font-weight: 600;
 }

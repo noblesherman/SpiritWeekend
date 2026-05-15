@@ -31,7 +31,7 @@ export default function HomePage() {
               connect.
             </p>
             <div className="hero-actions">
-              <Button href="/schedule">View the Schedule</Button>
+              <Button href="/schedule" variant="secondary">View the Schedule</Button>
               <Button href="/about" variant="secondary">
                 About the Weekend
               </Button>
@@ -45,15 +45,15 @@ export default function HomePage() {
             <div className="hero-facts">
               <div>
                 <span>Date</span>
-                <strong>October 16 to 18</strong>
+                <strong>August 15 to 16</strong>
               </div>
               <div>
                 <span>Place</span>
-                <strong>Cedar Ridge Conference Grounds</strong>
+                <strong>Groman Site - Sandisfield, MA</strong>
               </div>
               <div>
                 <span>Format</span>
-                <strong>Sessions, workshops, meals, and late-night hangs</strong>
+                <strong>Boot Camp / Seminar / Party all roled into one event.</strong>
               </div>
             </div>
           </aside>
@@ -81,7 +81,7 @@ export default function HomePage() {
                 {/* Option B: Embedded widget — opens Ticket Tailor in a popup overlay */}
                 <a
                   href="https://buytickets.at/spiritweekend2026"
-                  className="button button--secondary tt-widget-button"
+                  className="button button--primary tt-widget-button"
                 >
                   Register Now (Widget)
                 </a>

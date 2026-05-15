@@ -4,6 +4,8 @@ export type ScheduleItem = {
   title: string;
   location: string;
   description: string;
+  image?: string;
+  imageAlt?: string;
 };
 
 // Keeping event data in its own file makes the page components easier to read.
@@ -24,6 +26,8 @@ export const scheduleItems: ScheduleItem[] = [
     location: "Tents",
     description:
       "Good night ladies.",
+    image: "/good_night_ladies.jpg",
+    imageAlt: "Good night ladies",
   },
   {
     id: 5,
@@ -40,6 +44,8 @@ export const scheduleItems: ScheduleItem[] = [
     location: "Site",
     description:
       "Leave it better than you found it.",
+    image: "/clean_up.jpg",
+    imageAlt: "Clean up time",
   },
 ];
 

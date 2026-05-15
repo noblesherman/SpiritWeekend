@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import Image from "next/image";
 import { Section } from "@/components/Section";
 import { scheduleItems } from "@/data/schedule";
 
@@ -36,7 +37,7 @@ export default function SchedulePage() {
             </div>
             <div className="schedule-list">
               {items.map((item) => (
-                <article className="schedule-row" key={item.id}>
+                <article className={`schedule-row${item.image ? ' has-image' : ''}`} key={item.id}>
                   <div>
                     <p className="schedule-time">{item.time}</p>
                     <h3>{item.title}</h3>
@@ -45,6 +46,16 @@ export default function SchedulePage() {
                     <p className="schedule-location">{item.location}</p>
                     <p>{item.description}</p>
                   </div>
+                  {item.image && (
+                    <div className="schedule-image">
+                      <Image
+                        src={item.image}
+                        alt={item.imageAlt || item.title}
+                        width={240}
+                        height={160}
+                      />
+                    </div>
+                  )}
                 </article>
               ))}
             </div>
