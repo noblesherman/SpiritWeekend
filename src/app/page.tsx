@@ -71,7 +71,7 @@ export default function HomePage() {
               <div className="registration-buttons">
                 {/* Option A: Link button — opens Ticket Tailor in a new tab */}
                 <a
-                  href="https://buytickets.at/spiritweekend2026"
+                  href="https://app.tickettailor.com/events/spiritweekend20261/2222583"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="button button--primary"
