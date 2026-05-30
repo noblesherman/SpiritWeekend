@@ -10,13 +10,13 @@ export default function AboutPage() {
     <Section
       eyebrow="About"
       title="What to Expect"
-      intro="This page should read less like a brochure and more like an honest invitation. A little context goes a long way."
+      intro="Connect with Sterling men, Celebrate the Well-Diggers, and Honor our Fallen Warriors in a camping weekend that will bring you face to face with your power, your sense of connection to your Men, and your drive to be the Man You Always Wanted to Be..  Practice the principles of the Sterling Men’s Weekend on over 400 acres of Masculine Freedom."
     >
       <div className="editorial-grid">
         <article className="editorial-lead">
           <h3>Purpose</h3>
           <p>
-            Transform the men who participate and give them a weekend they'll never forget. Give the men a space to let go of the rules and what society tells us what we have to be. Understand the Three Dimensional man.
+            Transform the Men who participate with a weekend they'll never forget. Give the Men a space to let go of the rules and what society tells us we have to be. Understand and become the Three Dimensional Man. Bring the FIRE home to light up your families, friends, and communities.
           </p>
         </article>
         <article className="note">
@@ -29,30 +29,36 @@ export default function AboutPage() {
 
       <div className="rule-list">
 
-        <div className="rule-group-heading"><span>What to Expect</span></div>
-        <div>
-          <span className="rule-label">XXX</span>
-          <div><h3>Weekend Technology</h3><p>Get your weekend! Bring it home and be the man you always wanted to be.</p></div>
-        </div>
-        <div>
-          <span className="rule-label">XXX</span>
-          <div><h3>Food</h3><p>Holy shit YES! Cheffy Shea is ON DUTY!</p></div>
-        </div>
-        <div>
-          <span className="rule-label">XXX</span>
-          <div><h3>Games</h3><p>Unpredictable Mothah-Fuckery.</p></div>
-        </div>
-
         <div className="rule-group-heading"><span>What to Bring</span></div>
         <div>
-          <span className="rule-label">XXX</span>
-          <div><h3></h3><p></p></div>
+          <span className="rule-label">rule-label</span>
+          <div><h3>h3 + description</h3><ul>
+            <li>Tent</li>
+            <li>Sleeping bag or blankets</li>
+            <li>Folding camp chair</li>
+            <li>Bug repellant</li>
+            <li>Extra sanitizer / disinfectant wipes / vagisil</li>
+            <li>Your Balls (All of them)</li>
+            <li>Bathing suit or Birthday suit</li>
+            <li>Towel</li>
+            <li>Musical instruments (guitar, bongos, etc)</li>
+            <li>1 gallon drinking water (no water on the site)</li>
+            <li>Pocket knife</li>
+            <li>Work gloves</li>
+            <li>Water shoes</li>
+            <li>Spare socks</li>
+            <li>Blindfold</li>
+            <li>Flashlight</li>
+            <li>Sun screen</li>
+            <li>Snacks</li>
+          </ul></div>
         </div>
 
-        <div className="rule-group-heading"><span>Logistics</span></div>
+        <div className="rule-group-heading"><span>Additionally</span></div>
         <div>
-          <span className="rule-label">XXX</span>
-          <div><h3>Duration</h3><p>All day Saturday, half day Sunday.</p></div>
+          <span className="rule-label">rule-label</span>
+          <div><h3>h3 + description</h3><p>You are encouraged to bring tools for landscaping work, including a sharpened chainsaw, loppers, brush cutters, a gas-powered weed whacker, or any other brush clearing equipment to facilitate our site cleanup.
+</p></div>
         </div>
 
       </div>

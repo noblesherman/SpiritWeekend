@@ -1,6 +1,6 @@
 # Site Architecture Map
 
-> **Last updated:** May 15, 2026
+> **Last updated:** May 30, 2026
 >
 > This is a structural diagram of every page on the Spirit Weekend 2026 site.
 > Each element has a unique bracket ID so we can reference specific areas
@@ -71,8 +71,7 @@
 │  │  [H-2a-3] Description paragraph                           │  │
 │  │                                                           │  │
 │  │  [H-2a-4] REGISTRATION BUTTONS                            │  │
-│  │   [H-2a-4a] "Register Now (Link)" — external link         │  │
-│  │   [H-2a-4b] "Register Now (Widget)" — TT widget button    │  │
+│  │   [H-2a-4a] "Pay Here" — external link (.pay-here-btn)    │  │
 │  └───────────────────────────────────────────────────────────┘  │
 └─────────────────────────────────────────────────────────────────┘
 ```
@@ -85,7 +84,7 @@
 ┌─────────────────────────────────────────────────────────────────┐
 │ [A-1] SECTION HEADING                                           │
 │  [A-1a] Eyebrow "About"                                         │
-│  [A-1b] h2 "What to Expect"                                     │
+│  [A-1b] h2 "What to Expect"                                    │
 │  [A-1c] Intro text                                              │
 └─────────────────────────────────────────────────────────────────┘
 
@@ -103,27 +102,15 @@
 ┌─────────────────────────────────────────────────────────────────┐
 │ [A-3] RULE LIST                                                 │
 │                                                                 │
-│  [A-3a] ── Group heading: "What to Expect" ──                   │
+│  [A-3a] ── Group heading: "What to Bring" ──                    │
 │  ┌──────────────┬──────────────────────────────────────────┐    │
-│  │ [A-3b-L]     │ [A-3b-R] "Weekend Technology"            │    │
-│  │ rule-label   │  h3 + description                        │    │
-│  ├──────────────┼──────────────────────────────────────────┤    │
-│  │ [A-3c-L]     │ [A-3c-R] "Food"                          │    │
-│  │ rule-label   │  h3 + description                        │    │
-│  ├──────────────┼──────────────────────────────────────────┤    │
-│  │ [A-3d-L]     │ [A-3d-R] "Games"                         │    │
+│  │ [A-3b-L]     │ [A-3b-R] camping gear list               │    │
 │  │ rule-label   │  h3 + description                        │    │
 │  └──────────────┴──────────────────────────────────────────┘    │
 │                                                                 │
-│  [A-3e] ── Group heading: "What to Bring" ──                    │
+│  [A-3c] ── Group heading: "Additionally" ──                     │
 │  ┌──────────────┬──────────────────────────────────────────┐    │
-│  │ [A-3f-L]     │ [A-3f-R] (empty — placeholder)           │    │
-│  │ rule-label   │                                          │    │
-│  └──────────────┴──────────────────────────────────────────┘    │
-│                                                                 │
-│  [A-3g] ── Group heading: "Logistics" ──                        │
-│  ┌──────────────┬──────────────────────────────────────────┐    │
-│  │ [A-3h-L]     │ [A-3h-R] "Duration"                      │    │
+│  │ [A-3d-L]     │ [A-3d-R] landscaping / tools content     │    │
 │  │ rule-label   │  h3 + description                        │    │
 │  └──────────────┴──────────────────────────────────────────┘    │
 └─────────────────────────────────────────────────────────────────┘

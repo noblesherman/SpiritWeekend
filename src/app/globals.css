@@ -410,7 +410,9 @@ h3 {
 .timeline-item p,
 .schedule-row p,
 .contact-copy p,
-.rule-list p {
+.rule-list p,
+.rule-list ul,
+.rule-list li {
   color: var(--muted);
 }
 
