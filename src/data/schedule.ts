@@ -54,7 +54,10 @@ export const scheduleItems: ScheduleItem[] = [
     time: "Sunday, 07:00 AM",
     title: "Reveille",
     location: "",
-    description: ""
+    description: "",
+    image: "/paul-revere.jpg",
+    imageAlt: "Clean up time",
+
   },
 
   {
@@ -64,7 +67,6 @@ export const scheduleItems: ScheduleItem[] = [
     location: "Mess Area",
     description: ""
   },
-
   {
     id: 8,
     time: "Sunday, 09:00 AM",
@@ -72,7 +74,6 @@ export const scheduleItems: ScheduleItem[] = [
     location: "Fire Circle",
     description: ""
   },
-
   {
     id: 9,
     time: "Sunday, 9:30 AM to 12:30 PM",
@@ -86,22 +87,6 @@ export const scheduleItems: ScheduleItem[] = [
     title: "Passing of the Rock",
     location: "Fire Circle",
     description: "Passing of the Rock"
-  },
-
-
-
-
-
-
-  {
-    id: 14,
-    time: "Monday, 12:00 PM",
-    title: "Strike",
-    location: "Site",
-    description:
-      "Leave it better than you found it.",
-    image: "/clean_up.jpg",
-    imageAlt: "Clean up time",
-  },
+  }
 ];
 

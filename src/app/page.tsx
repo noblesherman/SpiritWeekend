@@ -1,5 +1,4 @@
 import { Metadata } from "next";
-import Image from "next/image";
 import { BannerSection } from "@/components/BannerSection";
 import { Button } from "@/components/Button";
 import { Container } from "@/components/Container";
@@ -18,15 +17,6 @@ export default function HomePage() {
           <div className="hero-copy">
             <p className="eyebrow">Spirit Weekend 2026</p>
             <h1>Spirit Weekend 2026</h1>
-            <div className="hero-image">
-              <Image
-                src="/paul-revere.jpg"
-                alt="Paul Revere galloping on horseback — The Midnight Ride"
-                width={480}
-                height={508}
-                priority
-              />
-            </div>
             <p className="hero-text">
               Spirit Weekend is a masculine, three-dimensional event for Sterling Men’s Weekend graduates only.<br /><br />
               It has a storied legacy and takes place on over 400 acres of Masculine Freedom.<br /><br />

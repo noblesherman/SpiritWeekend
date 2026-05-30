@@ -11,7 +11,7 @@ const themes = [
 type ThemeId = (typeof themes)[number]["id"];
 
 export function ThemeToggle() {
-  const [index, setIndex] = useState(0);
+  const [index, setIndex] = useState(1);
 
   useEffect(() => {
     const saved = localStorage.getItem("sw-theme") as ThemeId | null;
@@ -19,6 +19,8 @@ export function ThemeToggle() {
     if (i !== -1) {
       setIndex(i);
       document.documentElement.setAttribute("data-theme", saved!);
+    } else {
+      document.documentElement.setAttribute("data-theme", "frontier");
     }
   }, []);
 
