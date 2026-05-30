@@ -27,8 +27,8 @@ export default function SchedulePage() {
     <>
     <Section
       eyebrow="Schedule"
-      title="A sample rhythm for the weekend."
-      intro="The schedule is still hardcoded for now, but the structure is already separated from the page so it stays easy to edit."
+      title="General Spirit Weekend Schedule"
+      intro="There will be plenty of good food, fun, Masculine competition, Saturday night FIRE, and Sunday final Circle."
     >
       <div className="day-groups">
         {Object.entries(groupedItems).map(([day, items]) => (
