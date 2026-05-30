@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import Image from "next/image";
 import { Section } from "@/components/Section";
 import { scheduleItems } from "@/data/schedule";
+import { RegistrationSection } from "@/components/RegistrationSection";
 
 export const metadata: Metadata = {
   title: "Schedule",
@@ -23,6 +24,7 @@ export default function SchedulePage() {
   );
 
   return (
+    <>
     <Section
       eyebrow="Schedule"
       title="A sample rhythm for the weekend."
@@ -63,5 +65,7 @@ export default function SchedulePage() {
         ))}
       </div>
     </Section>
+    <RegistrationSection />
+    </>
   );
 }

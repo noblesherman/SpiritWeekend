@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import { Section } from "@/components/Section";
+import { RegistrationSection } from "@/components/RegistrationSection";
 
 export const metadata: Metadata = {
   title: "About",
@@ -7,6 +8,7 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
   return (
+    <>
     <Section
       eyebrow="About"
       title="What to Expect"
@@ -64,5 +66,7 @@ export default function AboutPage() {
       </div>
 
     </Section>
+    <RegistrationSection />
+    </>
   );
 }
