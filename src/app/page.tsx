@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Image from "next/image";
+import { BannerSection } from "@/components/BannerSection";
 import { Button } from "@/components/Button";
 import { Container } from "@/components/Container";
 import { RegistrationSection } from "@/components/RegistrationSection";
@@ -11,6 +12,7 @@ export const metadata: Metadata = {
 export default function HomePage() {
   return (
     <>
+      <BannerSection />
       <section className="hero">
         <Container className="hero-inner">
           <div className="hero-copy">

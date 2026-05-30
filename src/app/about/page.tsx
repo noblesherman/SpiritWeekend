@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import { Section } from "@/components/Section";
+import { BannerSection } from "@/components/BannerSection";
 import { RegistrationSection } from "@/components/RegistrationSection";
 
 export const metadata: Metadata = {
@@ -9,6 +10,7 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <>
+    <BannerSection />
     <Section
       eyebrow="About"
       title="What to Expect"

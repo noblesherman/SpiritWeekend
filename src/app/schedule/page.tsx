@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import Image from "next/image";
 import { Section } from "@/components/Section";
 import { scheduleItems } from "@/data/schedule";
+import { BannerSection } from "@/components/BannerSection";
 import { RegistrationSection } from "@/components/RegistrationSection";
 
 export const metadata: Metadata = {
@@ -25,6 +26,7 @@ export default function SchedulePage() {
 
   return (
     <>
+    <BannerSection />
     <Section
       eyebrow="Schedule"
       title="General Spirit Weekend Schedule"
