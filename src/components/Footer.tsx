@@ -11,7 +11,7 @@ export function Footer() {
           </p>
         </div>
         <p className="footer-copy">
-          A Sterling Men's Weekeend Event
+          Spirit Weekend
         </p>
       </Container>
     </footer>

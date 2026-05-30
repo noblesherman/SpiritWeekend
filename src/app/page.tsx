@@ -26,9 +26,9 @@ export default function HomePage() {
               />
             </div>
             <p className="hero-text">
-              Spirit Weekend brings students together for three days of sessions,
-              music, workshops, and space to actually slow down long enough to
-              connect.
+              Spirit Weekend is a masculine, three-dimensional event for Sterling Men’s Weekend graduates only.<br /><br />
+              It has a storied legacy and takes place on over 400 acres of Masculine Freedom.<br /><br />
+              Spirit Weekend is a powerful two day camping experience with your Sterling brothers designed to ignite your enthusiasm and stoke your Spirit. You will have fun, feast, and engage in outrageous competition as only a Man can.
             </p>
             <div className="hero-actions">
               <Button href="/schedule" variant="secondary">View the Schedule</Button>
@@ -45,15 +45,19 @@ export default function HomePage() {
             <div className="hero-facts">
               <div>
                 <span>Date</span>
-                <strong>August 15 to 16</strong>
+                <strong>Sat. August 15th to Sun. August 16th</strong>
               </div>
               <div>
                 <span>Place</span>
-                <strong>Groman Site - Sandisfield, MA</strong>
+                <strong>Sandisfield, MA 01255</strong>
               </div>
               <div>
-                <span>Format</span>
-                <strong>Boot Camp / Seminar / Party all roled into one event.</strong>
+                <span>Cost</span>
+                <strong>$100</strong>
+              </div>
+              <div>
+                <span>Context</span>
+                <strong>I am a fucking Sterling Man!</strong>
               </div>
             </div>
           </aside>
@@ -74,16 +78,9 @@ export default function HomePage() {
                   href="https://app.tickettailor.com/events/spiritweekend20261/2222583"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="button button--primary"
+                  className="button button--primary pay-here-btn"
                 >
-                  Register Now (Link)
-                </a>
-                {/* Option B: Embedded widget — opens Ticket Tailor in a popup overlay */}
-                <a
-                  href="https://buytickets.at/spiritweekend2026"
-                  className="button button--primary tt-widget-button"
-                >
-                  Register Now (Widget)
+                  Pay Here
                 </a>
               </div>
             </div>

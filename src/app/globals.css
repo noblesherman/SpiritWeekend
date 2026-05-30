@@ -277,6 +277,11 @@ h3 {
   justify-content: center;
 }
 
+.pay-here-btn {
+  padding: 1.35rem 2.5rem;
+  font-size: 1.3rem;
+}
+
 .hero-image {
   margin: 1.5rem auto;
   border-radius: 12px;
