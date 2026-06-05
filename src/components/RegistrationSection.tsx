@@ -12,7 +12,8 @@ export function RegistrationSection() {
             <div className="registration-buttons">
               <a
                 // href="https://app.tickettailor.com/events/spiritweekend20261/2222583"
-                href="https://buy.stripe.com/28E14gdbTcM88Z4d643ks01"
+                // href="https://buy.stripe.com/28E14gdbTcM88Z4d643ks01"
+                href="https://buytickets.at/spiritweekend2026/2250673"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="button button--primary pay-here-btn"
