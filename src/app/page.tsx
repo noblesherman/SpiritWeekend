@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import Image from "next/image";
 import { BannerSection } from "@/components/BannerSection";
 import { Button } from "@/components/Button";
 import { Container } from "@/components/Container";
@@ -12,6 +13,30 @@ export default function HomePage() {
   return (
     <>
       <BannerSection />
+
+      <div className="home-image-pair">
+        <div className="home-image-pair-inner">
+          <div className="home-image-pair-item">
+            <Image
+              src="/Three_Vikings.JPG"
+              alt="Three douche bags - Kellerman's ides"
+              width={641}
+              height={335}
+              className="home-image-pair-img"
+            />
+          </div>
+          <div className="home-image-pair-item">
+            <Image
+              src="/Three_Douche_Bags.JPG"
+              alt="Three vikings"
+              width={945}
+              height={495}
+              className="home-image-pair-img"
+            />
+          </div>
+        </div>
+      </div>
+
       <section className="hero">
         <Container className="hero-inner">
           <div className="hero-copy">

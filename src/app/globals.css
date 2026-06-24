@@ -681,6 +681,37 @@ h3 {
   }
 }
 
+/* ── Home image pair ── */
+.home-image-pair {
+  padding: 2rem 0 0;
+}
+
+.home-image-pair-inner {
+  width: min(100% - 2rem, 780px);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.home-image-pair-item {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.home-image-pair-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 600px) {
+  .home-image-pair-inner {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* ── Thank-you page ── */
 .thank-you-page {
   min-height: 70vh;
