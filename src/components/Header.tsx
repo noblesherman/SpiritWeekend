@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { Container } from "@/components/Container";
-import { ThemeToggle } from "@/components/ThemeToggle";
 
 const navLinks = [
   { href: "/", label: "Home" },
@@ -26,7 +25,6 @@ export function Header() {
             ))}
           </ul>
         </nav>
-        <ThemeToggle />
       </Container>
     </header>
   );
