@@ -47,7 +47,7 @@ export default function ContactPage() {
           action="https://formspree.io/f/meenpkol"
           method="POST"
         >
-          <input type="hidden" name="_next" value="https://spiritweekend2026.com/contact" />
+          <input type="hidden" name="_next" value="https://spiritweekend.net/contact" />
           <label htmlFor="name">Name</label>
           <input id="name" name="name" placeholder="Your name" type="text" />
 
@@ -55,7 +55,7 @@ export default function ContactPage() {
           <input
             id="email"
             name="email"
-            placeholder="you@example.com"
+            placeholder="your_email@gmail.com"
             type="email"
           />
 
