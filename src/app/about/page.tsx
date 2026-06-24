@@ -35,8 +35,8 @@ export default function AboutPage() {
 
         <div className="rule-group-heading"><span>What to Bring</span></div>
         <div>
-          <span className="rule-label">rule-label</span>
-          <div><h3>h3 + description</h3><ul>
+          <span className="rule-label">Highly Recommended</span>
+          <div><h3>The List</h3><ul>
             <li>Tent</li>
             <li>Sleeping bag or blankets</li>
             <li>Folding camp chair</li>
@@ -60,8 +60,8 @@ export default function AboutPage() {
 
         <div className="rule-group-heading"><span>Additionally</span></div>
         <div>
-          <span className="rule-label">rule-label</span>
-          <div><h3>h3 + description</h3><p>You are encouraged to bring tools for landscaping work, including a sharpened chainsaw, loppers, brush cutters, a gas-powered weed whacker, or any other brush clearing equipment to facilitate our site cleanup.
+          <span className="rule-label">Do Your Best</span>
+          <div><h3>The Short List</h3><p>You are encouraged to bring tools for landscaping work, including a sharpened chainsaw, loppers, brush cutters, a gas-powered weed whacker, or any other brush clearing equipment to facilitate our site cleanup.
 </p></div>
         </div>
 
